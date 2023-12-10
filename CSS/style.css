@@ -1,6 +1,9 @@
 body{
     background-color: #C69774;
 }
+a{
+    text-decoration: none;
+}
 .header{
     height: 80px;
     width: 100%;
