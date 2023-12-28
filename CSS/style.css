@@ -1,5 +1,5 @@
 body{
-    background-color: #C69774;
+    background-color: #B31312;
 }
 a{
     text-decoration: none;
@@ -7,12 +7,12 @@ a{
 .header{
     height: 80px;
     width: 100%;
-    background-color: #F8DFD4;
+    background-color: #EA906C;
 }
 .menu{
     height: 30px;
     width: 100%;
-    background-color: #FFEFE8;
+    background-color: #EEE2DE;
 }
 .main{
     width: 100%;
@@ -21,18 +21,18 @@ a{
     height: 100%;
     width: 70.73%;
     display: inline-block;
-    background-color: #FFEFE8;
+    background-color: #EEE2DE;
 }
 .sidebar{
     height: 100%;
     width: 29%;
     display: inline-block;
-    background-color: #FFEFE8;
+    background-color: #EEE2DE;
 }
 .footer{
     height: 100px;
     width: 100%;
-    background-color: #F8DFD4;
+    background-color: #EA906C;
 }
 #imgLogo{
     max-height: 66px;
