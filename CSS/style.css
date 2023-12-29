@@ -1,5 +1,5 @@
 body{
-    background-color: #B31312;
+    background-color: #EA906C;
 }
 a{
     text-decoration: none;
@@ -7,32 +7,36 @@ a{
 .header{
     height: 80px;
     width: 100%;
-    background-color: #EA906C;
+    background-color: #EEE2DE;
+    border-radius: 30px;
 }
 .menu{
     height: 30px;
     width: 100%;
     background-color: #EEE2DE;
+    border-radius: 30px;
 }
 .main{
     width: 100%;
 }
 .home{
     height: 100%;
-    width: 70.73%;
+    width: 70%;
     display: inline-block;
     background-color: #EEE2DE;
+    border-radius: 30px;
 }
 .sidebar{
     height: 100%;
     width: 29%;
     display: inline-block;
     background-color: #EEE2DE;
+    border-radius: 30px;
 }
 .footer{
     height: 100px;
     width: 100%;
-    background-color: #EA906C;
+    background-color: #2B2A4C;
 }
 #imgLogo{
     max-height: 66px;
