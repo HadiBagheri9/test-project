@@ -3,6 +3,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: #2B2A4C;
 }
 .header{
     height: 80px;
@@ -41,6 +42,9 @@ a{
     width: 100%;
     background-color: #2B2A4C;
 }
+.td{
+    color: #2B2A4C;
+}
 #imgLogo{
     max-height: 66px;
     max-width: 253px;
@@ -48,7 +52,7 @@ a{
     margin-top: 5px;
 }
 #footerParagraph{
-    color: aliceblue;
+    color: #EEE2DE;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     margin: 20px;
@@ -64,6 +68,26 @@ a{
     text-align: justify;
     text-justify: inter-word;
     margin: 20px;
+}/*
+#loginLink{
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEE2DE;
+    background-color: #2B2A4C;
+    text-decoration: none;
+    height: 30px;
+}*/
+#loginButtom{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    height: 30px;
+    width: 45px;
+    margin-right: 30px;
+    background-color: #2B2A4C;
+    color: #EEE2DE;
+    border-style: unset;
+
 }
 *{
     direction: rtl;

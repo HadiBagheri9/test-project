@@ -1,0 +1,66 @@
+body{
+    background-color: #EA906C;
+}
+a{
+    text-decoration: none;
+}
+div{
+    margin: auto;
+    margin-top: 150px;
+    width: 50%;
+    height: 400px;
+    border-radius: 30px;
+    background-color: #2B2A4C;
+}
+section{
+    border-radius: 30px;
+    height: 100%;
+    border: 10px solid #2B2A4C;
+    background-color: #EEE2DE;
+}
+#TxtUserName{
+    border-radius: 30px;
+    border-color: #2B2A4C;
+    border-style: solid;
+    height: 30px;
+    /*margin-right: 30px;*/
+    margin-top: 180px;
+}
+#LblUserName{
+    color: #2B2A4C;
+    margin-right: 30px;
+}
+#TxtPassword{
+    border-radius: 30px;
+    border-color: #2B2A4C;
+    border-style: solid;
+    height: 30px;
+    margin-top: 30px;
+}
+#LblPassword{
+    color: #2B2A4C;
+}
+.td{
+    margin-right: 30px;
+}
+#BtnLogin{
+    width: 80px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border-style: none;
+    color: #EEE2DE;
+    background-color: #2B2A4C;
+}
+#BtnCancel{
+    width: 80px;
+    height: 40px;
+    margin-right: 40px;
+    border-style: none;
+    color: #EEE2DE;
+    background-color: #2B2A4C;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    direction: rtl;
+}
