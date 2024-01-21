@@ -9,7 +9,13 @@
     <body>
         <div>
             <section>
-
+                <script type = "text/javascript">
+                    function FillTextBoxes(){
+                        var name = "hadi"
+                        document.getElementById("TxtUserName").value = name
+                        document.getElementById("TxtPassword").value = name 
+                    }
+                </script>
                 <form enctype = "multipart/form-data" method = "post">
                     <label id = "LblUserName">یوزر : </label>
                     <input id = "TxtUserName" type = "text" name = "TxtUserName">
@@ -17,9 +23,9 @@
                     <label id = "LblPassword">رمز عبور : </label>
                     <input id = "TxtPassword" type = "text" name = "TxtPassword">
                     <br>
-                    <a href = "table.html">
-                        <input id = "BtnLogin" type = "button" name = "BtnLogin" value="ورود">
-                    </a>
+                    
+                    <input id = "BtnLogin" type = "button" name = "BtnLogin" value="ورود" onclick="FillTextBoxes()">
+                    
                     <input id = "BtnCancel" type = "button" name = "BtnCancel" value="انصراف">
                          
                 </form>
