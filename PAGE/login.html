@@ -11,13 +11,17 @@
             <section>
                 <script type = "text/javascript">
                     function FillTextBoxes(){
-                        var name = "hadi"
-                        document.getElementById("TxtUserName").value = name
-                        document.getElementById("TxtPassword").value = name 
-                        window.alert("Textboxes filled.")
+                        var name = "hadi";
+                        document.getElementById("TxtUserName").value = name;
+                        document.getElementById("TxtPassword").value = name;
+                        window.alert("Textboxes filled.");
+                    }
+                    function GoToTablePage(){
+                        var url = "../index.html";
+                        document.replace(url);
                     }
                 </script>
-                <form enctype = "multipart/form-data" method = "post">
+                <form enctype = "multipart/form-data" method = "POST" action="action_login.php">
                     <label id = "LblUserName">یوزر : </label>
                     <input id = "TxtUserName" type = "text" name = "TxtUserName">
                     <br>
@@ -25,9 +29,9 @@
                     <input id = "TxtPassword" type = "text" name = "TxtPassword">
                     <br>
                     
-                    <input id = "BtnLogin" type = "button" name = "BtnLogin" value="ورود" onclick="FillTextBoxes()">
+                    <input id = "BtnLogin" type = "submit" name = "BtnLogin" value="ورود">
                     
-                    <input id = "BtnCancel" type = "button" name = "BtnCancel" value="انصراف">
+                    <a href="../index.html"><input id = "BtnCancel" type = "button" name = "BtnCancel" value="انصراف" /*onclick="GoToTablePage()"*/></a>
                          
                 </form>
             </section>

@@ -6,7 +6,19 @@
         <meta charset="UTF-8">
     </head>
     <body dir = "rtl">
-        <table border="1">
+        <?php
+            if(isset($_POST['TxtUserName']) && !empty($_POST['TxtUserName'])
+             && isset($_POST['TxtPassword']) && !empty($_POST['TxtPassword'])){
+                $userName = $_POST['TxtUserName'];
+                $password = $_POST['TxtPassword'];
+                echo "<p>کاربر '$userName' با رمز '$password' وارد شد</p>";
+            }
+            else{
+                echo"ورود نا ممکن";
+            }
+
+        ?>
+        <!--table border="1">
             <thead>
                 <tr>
                     <th>آیدی</th>
@@ -38,6 +50,6 @@
                     <td></td>
                 </tr>
             </tfoot>
-        </table>
+        </table-->
     </body>
 </html>
