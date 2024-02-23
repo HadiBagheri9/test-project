@@ -67,4 +67,6 @@ section{
 }
 input[type = "submit"]:hover, input[type = "button"]:hover{
     border : 5px white solid;
+    cursor: pointer !important;
+    border-radius: 5px;
 }
